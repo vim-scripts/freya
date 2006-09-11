@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1651
+
+This color scheme has a dark blackground. Most colors are very warm (mainly brown and beige shades). The brightness of all highlights is rather similar.
+
+This color scheme is for GUI only, but makes some minor tweaks to cterm, too.
