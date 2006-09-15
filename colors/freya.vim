@@ -8,7 +8,7 @@ endif
 
 let colors_name = "freya"
 
-hi Normal ctermbg=0 ctermfg=7 cterm=none guibg=#2b221a guifg=#dcd2c5 gui=none
+hi Normal ctermbg=0 ctermfg=7 cterm=none guibg=#202020 guifg=#dcdccc gui=none
 
 hi Cursor guibg=fg guifg=bg gui=none
 hi CursorColumn guibg=#4b3c2c gui=none
