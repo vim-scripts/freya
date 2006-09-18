@@ -57,7 +57,7 @@ hi WarningMsg guibg=bg guifg=#f07070 gui=none
 hi WildMenu guibg=#c0aa94 guifg=bg gui=bold
 
 hi Comment guibg=bg guifg=#c2b680 gui=none
-hi Constant guibg=bg guifg=#e7b698 gui=none
+hi Constant guibg=bg guifg=#f8af80 gui=none
 hi Error guibg=bg guifg=#f07070 gui=none
 hi Identifier guibg=bg guifg=#dabfa5 gui=none
 hi Ignore guibg=bg guifg=bg gui=none
@@ -65,7 +65,7 @@ hi lCursor guibg=#c0aa94 guifg=bg gui=none
 hi MatchParen guibg=#008b8b gui=none
 hi PreProc guibg=bg guifg=#c2d0ae gui=none
 hi Special guibg=bg guifg=#d4b064 gui=none
-hi Statement guibg=bg guifg=#dabfa5 gui=bold
+hi Statement guibg=bg guifg=#e0af91 gui=bold
 hi Todo guibg=#aed0ae guifg=bg gui=none
 hi Type guibg=bg guifg=#dabfa5 gui=bold
 hi Underlined guibg=bg guifg=#d4b064 gui=underline
