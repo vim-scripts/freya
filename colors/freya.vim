@@ -8,11 +8,11 @@ endif
 
 let colors_name = "freya"
 
-hi Normal ctermbg=0 ctermfg=7 cterm=none guibg=#202020 guifg=#dcdccc gui=none
+hi Normal ctermbg=0 ctermfg=7 cterm=none guibg=#2a2a2a guifg=#dcdccc gui=none
 
 hi Cursor guibg=fg guifg=bg gui=none
-hi CursorColumn guibg=#4b3c2c gui=none
-hi CursorLine guibg=#4b3c2c gui=none
+hi CursorColumn guibg=#3f3f3f gui=none
+hi CursorLine guibg=#3f3f3f gui=none
 hi DiffAdd guibg=#008b00 guifg=fg gui=none
 hi DiffChange guibg=#00008b guifg=fg gui=none
 hi DiffDelete guibg=#8b0000 guifg=fg gui=none
@@ -20,7 +20,7 @@ hi DiffText guibg=#0000cd guifg=fg gui=bold
 hi Directory guibg=bg guifg=#d4b064 gui=none
 hi ErrorMsg guibg=bg guifg=#f07070 gui=bold
 hi FoldColumn ctermbg=bg guibg=bg guifg=#c2b680 gui=none
-hi Folded guibg=#635225 guifg=fg gui=none
+hi Folded guibg=#101010 guifg=#c2b680 gui=none
 hi IncSearch guibg=#866a4f guifg=fg gui=none
 hi LineNr guibg=bg guifg=#9f8f80 gui=none
 hi ModeMsg guibg=bg guifg=fg gui=bold
@@ -41,16 +41,16 @@ if has("spell")
     hi SpellRare guisp=#f070f0 gui=undercurl
 endif
 hi StatusLine ctermbg=7 ctermfg=0 guibg=#736559 guifg=#f7f7f1 gui=bold
-hi StatusLineNC ctermbg=8 ctermfg=0 guibg=#564d43 guifg=fg gui=none
-hi TabLine guibg=#6c553e guifg=#f7f7f1 gui=underline
-hi TabLineFill guibg=#131313 guifg=bg gui=none
+hi StatusLineNC ctermbg=8 ctermfg=0 guibg=#564d43 guifg=#f7f7f1 gui=none
+hi TabLine guibg=#564d43 guifg=#f7f7f1 gui=underline
+hi TabLineFill guibg=#564d43 guifg=#f7f7f1 gui=underline
 hi TabLineSel guibg=bg guifg=#f7f7f1 gui=bold
 hi Title ctermbg=0 ctermfg=15 guifg=#f7f7f1 gui=bold
-hi VertSplit ctermbg=7 ctermfg=0 guibg=#564d43 guifg=fg gui=none
+hi VertSplit ctermbg=7 ctermfg=0 guibg=#564d43 guifg=#f7f7f1 gui=none
 if version >= 700
-    hi Visual ctermbg=7 ctermfg=0 guibg=#6c553e gui=none
+    hi Visual ctermbg=7 ctermfg=0 guibg=#5f5f5f gui=none
 else
-    hi Visual ctermbg=7 ctermfg=0 guibg=#6c553e guifg=fg gui=none
+    hi Visual ctermbg=7 ctermfg=0 guibg=#5f5f5f guifg=fg gui=none
 endif
 hi VisualNOS guibg=bg guifg=#c0aa94 gui=bold,underline
 hi WarningMsg guibg=bg guifg=#f07070 gui=none
